@@ -4,6 +4,17 @@
 
 创青春项目——拾光机
 
+## Technology Stack
+
+- Vue: js框架
+- Vue-Router: 路由管理
+- Vuex: 状态管理
+- Element-UI: UI组件库
+- [BootCDN](https://www.bootcdn.cn/): CDN加速Vue、Vue-Router、Vuex等库，参考[Vue SPA 首屏加载优化实践](https://juejin.im/post/5a291092518825293b50366d)
+- babel-plugin-component: [按需引入Element-UI](https://element.eleme.cn/#/zh-CN/component/quickstart)
+- Bootstrap + jQuery: 原HTML模板遗留UI库
+- themefisher-font: 原HTML模板遗留字体库
+
 ## Usage
 
 Project setup:
@@ -44,6 +55,7 @@ npm run lint
 ![pic](./img/2.jpg)
 ![pic](./img/3.jpg)
 ![pic](./img/4.jpg)
+![pic](./img/11.jpg)
 
 ### Mobile
 

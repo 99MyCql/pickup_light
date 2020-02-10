@@ -29,7 +29,7 @@
               <h2>{{ this.product.name }}</h2>
               <p class="product-price">$30</p>
               <p class="product-description mt-20" v-html="this.product.description"></p>
-              <a href="https://www.taobao.com/" target="_blank" class="btn btn-main mt-20">Add To Cart</a>
+              <a href="#" target="_blank" class="btn btn-main mt-20">Add To Cart</a>
             </div>
           </div>
         </div>
