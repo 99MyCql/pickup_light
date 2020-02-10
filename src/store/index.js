@@ -10,19 +10,21 @@ const store = new Vuex.Store({
       title: '',
       content: ''
     },
-    category: {
-      title: '',
+    product: {
+      name: '',
+      imgUrl: '',
       description: '',
-      images: [],
-    }
+      otherImgs: []
+    },
   },
   mutations: {
     setBlog (state, blog) {
+      console.log('store mutations--->', blog)
       state.blog = blog
     },
-    setCategory (state, category) {
-      console.log(category)
-      state.category = category
+    setProduct (state, product) {
+      console.log('store mutations--->', product)
+      state.product = product
     }
   }
 })
