@@ -806,7 +806,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .navigation .navbar-nav > li > a {
   color: #edcf6f;
-  font-size: 14px;
+  font-size: 20px;
   padding: 20px 15px;
   text-transform: uppercase;
   transition: .2s ease-in-out 0s;

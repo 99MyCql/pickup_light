@@ -67,7 +67,7 @@
               </div>
               <div class="post-content">
                 <p>{{ post.summary }}</p>
-                <button class="btn btn-main" @click="toBlog(post)">Continue Reading</button>
+                <button class="btn btn-main" @click="toBlog(post)">阅读详情</button>
               </div>
             </div>
 
@@ -137,5 +137,11 @@ export default {
 }
 .slider3 {
   background-image:url('../assets/slider/slider-3.jpg');
+}
+
+@media (min-width:960px) {
+  .page-wrapper .post {
+    margin: 0 15% 60px 15%;
+  }
 }
 </style>

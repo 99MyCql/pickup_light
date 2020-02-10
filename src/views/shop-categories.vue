@@ -3,7 +3,7 @@
     <!-- Main Menu Section -->
     <head-er></head-er>
 
-    <page-header pageName="category"></page-header>
+    <page-header pageName="文创系列"></page-header>
 
     <section class="product-category">
       <div class="container">

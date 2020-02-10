@@ -3,7 +3,7 @@
     <!-- Main Menu Section -->
     <head-er></head-er>
 
-    <page-header pageName="product"></page-header>
+    <page-header pageName="产品详情"></page-header>
 
     <section class="single-product">
       <div class="container">
@@ -29,7 +29,7 @@
               <h2>{{ this.product.name }}</h2>
               <p class="product-price">$30</p>
               <p class="product-description mt-20" v-html="this.product.description"></p>
-              <a href="#" target="_blank" class="btn btn-main mt-20">Add To Cart</a>
+              <a href="#" target="_blank" class="btn btn-main mt-20">购买</a>
             </div>
           </div>
         </div>

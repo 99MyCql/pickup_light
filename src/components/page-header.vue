@@ -6,7 +6,7 @@
           <div class="content">
             <h1 class="page-name">{{ this.pageName[0].toUpperCase() + this.pageName.substring(1) }}</h1>
             <ol class="breadcrumb">
-              <li><a @click="back()" style="cursor: pointer;">Back</a></li>
+              <li><a @click="back()" style="cursor: pointer;">返回</a></li>
               <li class="active">{{ this.pageName }}</li>
             </ol>
           </div>

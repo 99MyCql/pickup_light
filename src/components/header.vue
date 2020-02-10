@@ -4,7 +4,7 @@
     <nav class="navbar navigation">
       <div class="container">
         <div class="navbar-header">
-          <h2 class="menu-title">Main Menu</h2>
+          <h1 class="menu-title">菜单</h1>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -19,25 +19,25 @@
           <ul class="nav navbar-nav">
             <!-- Home -->
             <li class="dropdown ">
-              <router-link to="/">Home</router-link>
+              <router-link to="/">首页</router-link>
             </li>
             <!-- / Home -->
 
             <!-- Shop -->
             <li>
-              <router-link to="/shop">Shop</router-link>
+              <router-link to="/shop">文创</router-link>
             </li>
             <!-- / Shop -->
 
             <!-- Contact -->
             <li>
-              <a href="#">Contact</a>
+              <a href="#">联系</a>
             </li>
             <!-- / Contact -->
 
             <!-- About -->
             <li>
-              <a href="#">About</a>
+              <a href="#">关于</a>
             </li>
             <!-- / About -->
           </ul>

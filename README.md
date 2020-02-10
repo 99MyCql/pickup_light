@@ -53,6 +53,8 @@ npm run lint
 
 ![pic](./img/1.jpg)
 ![pic](./img/2.jpg)
+![pic](./img/12.jpg)
+![pic](./img/13.jpg)
 ![pic](./img/3.jpg)
 ![pic](./img/4.jpg)
 ![pic](./img/11.jpg)
@@ -60,11 +62,13 @@ npm run lint
 ### Mobile
 
 ![pic](./img/5.jpg)
-![pic](./img/10.jpg)
+![pic](./img/15.jpg)
 ![pic](./img/6.jpg)
 ![pic](./img/7.jpg)
 ![pic](./img/8.jpg)
 ![pic](./img/9.jpg)
+![pic](./img/10.jpg)
+![pic](./img/14.jpg)
 
 ## Format
 

@@ -27,7 +27,7 @@
               </a>
             </li>
           </ul>
-          <ul class="footer-menu">
+          <!-- <ul class="footer-menu">
             <li>
               <a href="">CONTACT</a>
             </li>
@@ -40,7 +40,8 @@
             <li>
               <a href="">PRIVACY POLICY</a>
             </li>
-          </ul>
+          </ul> -->
+          <a href="http://www.beian.miit.gov.cn" target="_blank">备案号：粤ICP备19098325号-1</a>
         </div>
       </div>
     </div>
@@ -50,6 +51,13 @@
 
 <script>
 export default {
-
 }
 </script>
+
+<style scoped>
+.footer a {
+  /* color: black; */
+  display: block;
+  margin-top: 20px;
+}
+</style>

@@ -3,7 +3,7 @@
     <!-- Main Menu Section -->
     <head-er></head-er>
 
-    <page-header pageName="blog"></page-header>
+    <page-header pageName="详情"></page-header>
 
     <section class="page-wrapper">
       <div class="container">
