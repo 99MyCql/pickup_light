@@ -21,25 +21,15 @@
             <li class="dropdown ">
               <router-link to="/">首页</router-link>
             </li>
-            <!-- / Home -->
-
-            <!-- Shop -->
             <li>
               <router-link to="/shop">文创</router-link>
             </li>
-            <!-- / Shop -->
-
-            <!-- Contact -->
             <li>
               <a href="#">联系</a>
             </li>
-            <!-- / Contact -->
-
-            <!-- About -->
             <li>
               <a href="#">关于</a>
             </li>
-            <!-- / About -->
           </ul>
         </div>
         <!--/.navbar-collapse -->

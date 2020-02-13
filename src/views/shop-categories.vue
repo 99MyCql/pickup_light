@@ -10,7 +10,7 @@
         <!-- range categories -->
         <div class="row" v-for="(category, index) in this.categories" :key="index">
           <div class="col-sm-5" :class="{'col-sm-push-7': index%2 == 1}">
-            <el-carousel height="250px" indicator-position="outside">
+            <el-carousel indicator-position="outside">
               <!-- range category.products -->
               <el-carousel-item v-for="product in category.products" :key="product">
                 <div class="category-box">
@@ -350,8 +350,16 @@ export default {
   background-color: #f3f3f3;
 }
 
-.product-category .row {
-  margin-bottom: 100px;
+@media (max-width: 960px) {
+  .product-category .row {
+    margin-bottom: 180px;
+  }
+}
+
+@media (min-width: 960px) {
+  .product-category .row {
+    margin-bottom: 250px;
+  }
 }
 
 @media (min-width: 768px) {

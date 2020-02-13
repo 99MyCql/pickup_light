@@ -218,10 +218,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   width: 100%;
 }
 
-.category-box {
-  min-height: 250px;
-}
-
 .category-box.category-box-2 {
   min-height: 500px;
 }
@@ -243,22 +239,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
           backface-visibility: hidden;
 }
 
-@media (min-width: 960px) {
-  .category-box img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 960px) and (min-width: 760px) {
-  .category-box img {
-    height: 100%;
-  }
-}
-
-@media (max-width: 760px) {
-  .category-box img {
-    width: 100%;
-  }
+.category-box img {
+  width: 100%;
 }
 
 .category-box a {
