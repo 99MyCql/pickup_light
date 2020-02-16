@@ -1481,14 +1481,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   margin: 25px 0 0;
   padding: 20px 20px 5px;
   font-weight: 300;
-}
-
-.post .post-title a {
-  color: #000;
-}
-
-.post .post-title a:hover {
-  color: #000;
+  color: #9d2933;
 }
 
 .post .post-meta {
